@@ -10,36 +10,36 @@ Installing machine learning tools from different developers on an HPC cluster is
 
 In this assignment, you will install a suite of state-of-the-art machine learning tools for protein structure prediction, design, and analysis. These tools represent the current frontier of computational protein science.
 
-## Required Tools
+## Install these tools
 
 You must successfully install the following tools:
 
-| Tool | Purpose | Documentation |
-|------|---------|---------------|
-| **LocalColabFold** | Fast AlphaFold2-based structure prediction | [docs/localcolabfold.md](docs/localcolabfold.md) |
-| **LigandMPNN** | Context-aware protein sequence design | [docs/ligandmpnn.md](docs/ligandmpnn.md) |
-| **RFdiffusion2** | Atom-level protein design and active site scaffolding | [docs/rfdiffusion2.md](docs/rfdiffusion2.md) |
-| **ESMFold** | Fast single-sequence structure prediction | [docs/esmfold.md](docs/esmfold.md) |
-| **OpenFold** | Open-source AlphaFold2 implementation | [docs/openfold.md](docs/openfold.md) |
-| **Chai-1** | Multi-modal biomolecular structure prediction | [docs/chailab.md](docs/chailab.md) |
-| **Boltz-2** | Structure and binding affinity prediction | [docs/boltz2.md](docs/boltz2.md) |
-| **DiffDock-PP** | Protein-protein docking | [docs/diffdock_pp.md](docs/diffdock_pp.md) |
-| **PLACER** | Protein-ligand docking and ensemble generation | [docs/placer.md](docs/placer.md) |
+| Tool | Purpose | Instructions |
+|------|---------|--------------|
+| **LocalColabFold** | Fast AlphaFold2-based structure prediction | [Instructions](docs/localcolabfold.md) |
+| **LigandMPNN** | Context-aware protein sequence design | [Instructions](docs/ligandmpnn.md) |
+| **RFdiffusion2** | Atom-level protein design and active site scaffolding | [Instructions](docs/rfdiffusion2.md) |
+| **ESMFold** | Fast single-sequence structure prediction | [Instructions](docs/esmfold.md) |
+| **OpenFold** | Open-source AlphaFold2 implementation | [Instructions](docs/openfold.md) |
+| **Chai-1** | Multi-modal biomolecular structure prediction | [Instructions](docs/chailab.md) |
+| **Boltz-2** | Structure and binding affinity prediction | [Instructions](docs/boltz2.md) |
+| **DiffDock-PP** | Protein-protein docking | [Instructions](docs/diffdock_pp.md) |
+| **PLACER** | Protein-ligand docking and ensemble generation | [Instructions](docs/placer.md) |
 
 ## Optional Tools
 
 These tools are optional but recommended for those interested:
 
-| Tool | Purpose | Documentation |
-|------|---------|---------------|
-| **RFdiffusion All Atom** | Predecessor to RFdiffusion2 | [docs/rfdiffusion_all_atom.md](docs/rfdiffusion_all_atom.md) |
-| **ESM3** | Generative protein model | [docs/esm3.md](docs/esm3.md) |
+| Tool | Purpose | Instructions |
+|------|---------|--------------|
+| **RFdiffusion All Atom** | Predecessor to RFdiffusion2 | [Instructions](docs/rfdiffusion_all_atom.md) |
+| **ESM3** | Generative protein model | [Instructions](docs/esm3.md) |
 
 ## Getting Started
 
 1. **Choose a tool** from the table above
-2. **Read the documentation** carefully for that tool (click the link in the Documentation column)
-3. **Follow the installation instructions** provided in the documentation
+2. **Read the instructions** carefully for that tool (click the Instructions link)
+3. **Follow the installation instructions** provided
 4. **Test the installation** using the test commands provided
 5. **Document your success** (see Submission section below)
 6. **Repeat** for each tool
@@ -149,12 +149,6 @@ By completing this assignment, you will:
 4. Become familiar with the current landscape of ML tools for protein science
 5. Develop problem-solving skills essential for computational research
 
-## Timeline Expectations
-
-- **Minimum time**: 10-15 hours (if everything goes smoothly)
-- **Realistic time**: 20-30 hours (with troubleshooting)
-- **Start early** and work on one tool at a time
-
 ## Tips for Success
 
 1. **Install one tool at a time** - don't try to install everything at once
@@ -162,8 +156,7 @@ By completing this assignment, you will:
 3. **Use separate environments** - avoid dependency hell
 4. **Read the docs folder README files carefully** - they contain HPC-specific guidance
 5. **Be patient** - downloads and installations can take hours
-6. **Use screen or tmux** - so installations continue if your SSH connection drops
-7. **Ask for help early** - don't spend days stuck on one issue
+6. **Ask for help early** - don't spend days stuck on one issue
 
 ## About Autograding
 
