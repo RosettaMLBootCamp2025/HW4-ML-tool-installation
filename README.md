@@ -25,6 +25,7 @@ You must successfully install the following tools:
 | **Boltz-2** | Structure and binding affinity prediction | [Instructions](docs/boltz2.md) |
 | **DiffDock-PP** | Protein-protein docking | [Instructions](docs/diffdock_pp.md) |
 | **PLACER** | Protein-ligand docking and ensemble generation | [Instructions](docs/placer.md) |
+| **BindCraft** | End-to-end binder design pipeline | [Instructions](docs/bindcraft.md) |
 
 ## Optional Tools
 
