@@ -8,22 +8,9 @@ The goal of this homework assignment is to install LocalColabFold on your HPC cl
 
 ## Preparation Work
 
-This assignment assumes that you have access to a computing cluster that allows installation of new software. We'll be creating virtual environments using Conda/Mamba.
-
-(If you don't have Mamba or prefer using Conda, just swap `mamba` for `conda` in the install commands below)
+This assignment assumes that you have access to a computing cluster that allows installation of new software.
 
 **Important**: Make sure you have access to a GPU node for testing, as AlphaFold2 requires GPUs for efficient structure prediction.
-
-## HPC-Specific Notes
-
-**CUDA Requirements**: The latest version requires CUDA 12.1 or later. Check your cluster's available CUDA versions:
-```bash
-module avail cuda
-# or
-nvcc --version
-```
-
-**GNU Compiler**: Requires GCC 12.0 or later for OpenMM. If your cluster has an older version, you may need to load or request a newer GCC module.
 
 ## Installation Steps
 
@@ -81,8 +68,6 @@ For HPC clusters using SLURM, create a job script like this:
 #SBATCH --time=04:00:00
 #SBATCH --mem=32G
 
-module load cuda/12.1  # Adjust to your cluster's CUDA module
-
 source /path/to/localcolabfold/colabfold-conda/bin/activate
 
 colabfold_batch input.fasta output_dir/
@@ -93,11 +78,6 @@ colabfold_batch input.fasta output_dir/
 **Database Location**: By default, ColabFold downloads databases to `~/.cache/colabfold/`. On shared clusters, you may want to set `COLABFOLD_DOWNLOAD_DIR` to a shared location to avoid duplicate downloads:
 ```bash
 export COLABFOLD_DOWNLOAD_DIR=/shared/path/colabfold_db
-```
-
-**GPU Issues**: If you encounter CUDA/GPU errors, make sure your cluster's CUDA modules are loaded:
-```bash
-module load cuda  # or the appropriate CUDA module on your cluster
 ```
 
 If you need help, contact Ian Anderson at icanderson@ucdavis.edu.
