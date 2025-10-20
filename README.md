@@ -94,11 +94,25 @@ You will likely encounter:
 
 ### When You Need Help
 
-Contact Ian Anderson at **icanderson@ucdavis.edu** with:
+We strongly encourage you to use our Slack workspace for questions and collaboration! One of the best ways to learn is by discussing installation challenges with your peers and seeing how others solve problems.
+
+**Join the Bootcamp Slack channel**: https://rosettacommons.slack.com/archives/C09MXL9NBFB
+
+In the Slack channel, you can:
+- Ask questions and get help from fellow students
+- Share installation tips and workarounds you've discovered
+- Learn from others' questions and troubleshooting experiences
+- Collaborate on solving tricky HPC environment issues
+
+The TAs and I will be active in the Slack channel to help guide discussions and answer questions. Don't hesitate to jump in - installation challenges are a shared experience!
+
+When asking for help (on Slack or via email), please include:
 - Which tool you're installing
 - The complete error message
 - What you've already tried
 - Your HPC system name (if applicable)
+
+You're also welcome to email me directly at **icanderson@ucdavis.edu** if needed.
 
 ## Submission
 
